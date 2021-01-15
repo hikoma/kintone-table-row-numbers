@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.subtable-gaia {
+    counter-reset: number 0;
+}
+
+.subtable-gaia > tbody > tr > td:first-child {
+    position: relative;
+}
+
+.subtable-gaia > tbody > tr > td:first-child:before {
+    counter-increment: number 1;
+    content: counter(number) " ";
+    position: absolute;
+    top: 4px;
+    right: 100%;
+    margin-right: 4px;
+    font-size: 8px;
+    line-height: 21px;
+    color: #666;
+}

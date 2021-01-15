@@ -1,0 +1,15 @@
+{
+  "name": "kintone-table-row-numbers",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate-icons.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikoma/kintone-table-row-numbers.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.27.0"
+  }
+}
